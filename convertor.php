@@ -6,7 +6,7 @@
      * Time: 09:30
      */
 
-    require("Convertor.class.php");
+    require(__DIR__."/Convertor.class.php");
 
     $options = getopt("i:o:b::n", array( "input-file:", "output-file:", "batch-count::", "no-export-structure"));
 
